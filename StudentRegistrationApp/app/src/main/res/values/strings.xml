@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">StudentRegistrationApp</string>
+    <string-array name="countries">
+        <item>Select Country</item>
+        <item>Bangladesh</item>
+        <item>India</item>
+        <item>Pakistan</item>
+        <item>Nepal</item>
+        <item>Bhutan</item>
+    </string-array>
+</resources>
