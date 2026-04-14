@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#F5F7FA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Student Grade Report"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#1F2937"
+            android:gravity="center"
+            android:paddingBottom="16dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:id="@+id/tvStudentName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Student Name: Abdul Ahad"
+                android:textSize="16sp"
+                android:textColor="#111827"
+                android:paddingBottom="4dp" />
+
+            <TextView
+                android:id="@+id/tvStudentId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="4dp"
+                android:text="Student ID: 22-49726-3"
+                android:textColor="#111827"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tvSemester"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Semester: Spring 2026"
+                android:textSize="16sp"
+                android:textColor="#111827"
+                android:paddingBottom="4dp" />
+
+            <TextView
+                android:id="@+id/tvDepartment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Department: CSE"
+                android:textSize="16sp"
+                android:textColor="#111827" />
+        </LinearLayout>
+
+        <TableLayout
+            android:id="@+id/tableGrades"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*"
+            android:background="#FFFFFF"
+            android:padding="4dp"
+            android:layout_marginBottom="16dp">
+
+            <TableRow
+                android:background="#D1E9FF"
+                android:padding="6dp">
+
+                <TextView
+                    android:text="Subject"
+                    android:textStyle="bold"
+                    android:textColor="#111827"
+                    android:padding="8dp"
+                    android:gravity="center" />
+
+                <TextView
+                    android:text="Obtained"
+                    android:textStyle="bold"
+                    android:textColor="#111827"
+                    android:padding="8dp"
+                    android:gravity="center" />
+
+                <TextView
+                    android:text="Total"
+                    android:textStyle="bold"
+                    android:textColor="#111827"
+                    android:padding="8dp"
+                    android:gravity="center" />
+
+                <TextView
+                    android:text="Grade"
+                    android:textStyle="bold"
+                    android:textColor="#111827"
+                    android:padding="8dp"
+                    android:gravity="center" />
+            </TableRow>
+
+            <TableRow
+                android:background="#F9FAFB">
+
+                <TextView
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="Mobile .A.D" />
+
+                <TextView
+                    android:layout_width="64dp"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="95" />
+
+                <TextView
+                    android:text="100"
+                    android:padding="8dp"
+                    android:gravity="center" />
+
+                <TextView
+                    android:text="A+"
+                    android:textColor="#047857"
+                    android:padding="8dp"
+                    android:gravity="center" />
+            </TableRow>
+
+            <TableRow
+                android:background="#EEF6FF">
+
+                <TextView
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="Python" />
+
+                <TextView
+                    android:text="84"
+                    android:padding="8dp"
+                    android:gravity="center" />
+
+                <TextView
+                    android:text="100"
+                    android:padding="8dp"
+                    android:gravity="center" />
+
+                <TextView
+                    android:text="A"
+                    android:textColor="#047857"
+                    android:padding="8dp"
+                    android:gravity="center" />
+            </TableRow>
+
+            <TableRow
+                android:background="#F9FAFB">
+
+                <TextView
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="Engineering Management" />
+
+                <TextView
+                    android:text="76"
+                    android:padding="8dp"
+                    android:gravity="center" />
+
+                <TextView
+                    android:text="100"
+                    android:padding="8dp"
+                    android:gravity="center" />
+
+                <TextView
+                    android:text="B+"
+                    android:textColor="#047857"
+                    android:padding="8dp"
+                    android:gravity="center" />
+            </TableRow>
+
+            <TableRow
+                android:background="#EEF6FF">
+
+                <TextView
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="Reseach Methodology" />
+
+                <TextView
+                    android:text="67"
+                    android:padding="8dp"
+                    android:gravity="center" />
+
+                <TextView
+                    android:text="100"
+                    android:padding="8dp"
+                    android:gravity="center" />
+
+                <TextView
+                    android:text="B"
+                    android:textColor="#047857"
+                    android:padding="8dp"
+                    android:gravity="center" />
+            </TableRow>
+
+            <TableRow
+                android:background="#F9FAFB">
+
+                <TextView
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="Advance Webtec" />
+
+                <TextView
+                    android:text="52"
+                    android:padding="8dp"
+                    android:gravity="center" />
+
+                <TextView
+                    android:text="100"
+                    android:padding="8dp"
+                    android:gravity="center" />
+
+                <TextView
+                    android:text="C"
+                    android:textColor="#047857"
+                    android:padding="8dp"
+                    android:gravity="center" />
+            </TableRow>
+
+            <TableRow android:background="#EEF6FF">
+
+                <TextView
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="Machine Learning" />
+
+                <TextView
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="85" />
+
+                <TextView
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="100" />
+
+                <TextView
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="A"
+                    android:textColor="#433E3E" />
+            </TableRow>
+
+            <TableRow
+                android:background="#E5E7EB">
+
+                <TextView
+                    android:layout_span="4"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="Total Subjects: 6   |   Passed: 6   |   Failed: 0"
+                    android:textColor="#111827"
+                    android:textStyle="bold" />
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            android:id="@+id/tvGpa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="#DBEAFE"
+            android:gravity="center"
+            android:padding="14dp"
+            android:text="GPA: 3.28"
+            android:textColor="#0F172A"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp">
+
+            <EditText
+                android:id="@+id/etSubjectName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Subject Name"
+                android:inputType="text"
+                android:layout_marginBottom="8dp" />
+
+            <EditText
+                android:id="@+id/etObtainedMarks"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Obtained Marks"
+                android:inputType="number"
+                android:layout_marginBottom="8dp" />
+
+            <EditText
+                android:id="@+id/etTotalMarks"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Total Marks"
+                android:inputType="number"
+                android:layout_marginBottom="12dp" />
+
+            <Button
+                android:id="@+id/btnAddSubject"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add Subject"
+                android:textAllCaps="false"
+                android:backgroundTint="#2563EB"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnPrintShare"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Print"
+            android:textAllCaps="false"
+            android:backgroundTint="#059669"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+</ScrollView>
